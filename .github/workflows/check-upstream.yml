@@ -1,0 +1,162 @@
+name: Check Upstream Packages
+
+on:
+  schedule:
+    # Run every Monday at 9:00 AM UTC
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+jobs:
+  check-updates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check json_dynamic_widget updates
+        id: check-jdw
+        run: |
+          echo "Checking json_dynamic_widget for updates..."
+
+          # Get latest version from pub.dev
+          latest_jdw=$(npm view json_dynamic_widget 2>/dev/null | grep -i 'latest' | head -1 || echo "")
+
+          # Try alternative: curl to pub.dev API
+          latest_jdw=$(curl -s https://pub.dev/api/packages/json_dynamic_widget | jq -r '.latest.version' 2>/dev/null || echo "")
+
+          if [ ! -z "$latest_jdw" ]; then
+            echo "Latest json_dynamic_widget version: $latest_jdw"
+            echo "jdw_latest=$latest_jdw" >> $GITHUB_OUTPUT
+          else
+            echo "Could not fetch latest version"
+            echo "jdw_latest=unknown" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check json_theme updates
+        id: check-theme
+        run: |
+          echo "Checking json_theme for updates..."
+
+          # Get latest version from pub.dev
+          latest_theme=$(curl -s https://pub.dev/api/packages/json_theme | jq -r '.latest.version' 2>/dev/null || echo "")
+
+          if [ ! -z "$latest_theme" ]; then
+            echo "Latest json_theme version: $latest_theme"
+            echo "theme_latest=$latest_theme" >> $GITHUB_OUTPUT
+          else
+            echo "Could not fetch latest version"
+            echo "theme_latest=unknown" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Get current schema version
+        id: current-version
+        run: |
+          if [ -f VERSION ]; then
+            current=$(cat VERSION | grep -o 'json_dynamic_widget:[^,]*' || echo "unknown")
+            echo "current_jdw=$current" >> $GITHUB_OUTPUT
+
+            current_theme=$(cat VERSION | grep -o 'json_theme:[^,]*' || echo "unknown")
+            echo "current_theme=$current_theme" >> $GITHUB_OUTPUT
+          else
+            echo "current_jdw=unknown" >> $GITHUB_OUTPUT
+            echo "current_theme=unknown" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create issue for updates
+        if: steps.check-jdw.outputs.jdw_latest != 'unknown' || steps.check-theme.outputs.theme_latest != 'unknown'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const jdwLatest = '${{ steps.check-jdw.outputs.jdw_latest }}';
+            const themeLatest = '${{ steps.check-theme.outputs.theme_latest }}';
+            const currentJdw = '${{ steps.current-version.outputs.current_jdw }}';
+            const currentTheme = '${{ steps.current-version.outputs.current_theme }}';
+
+            let updateNeeded = false;
+            let title = '🔄 Upstream Package Updates Available';
+            let body = `## Upstream Package Updates\n\n`;
+
+            if (jdwLatest !== 'unknown' && jdwLatest !== currentJdw) {
+              updateNeeded = true;
+              body += `### json_dynamic_widget\n`;
+              body += `- Current schemas for: ${currentJdw}\n`;
+              body += `- Latest available: ${jdwLatest}\n`;
+              body += `- [View on pub.dev](https://pub.dev/packages/json_dynamic_widget)\n\n`;
+            }
+
+            if (themeLatest !== 'unknown' && themeLatest !== currentTheme) {
+              updateNeeded = true;
+              body += `### json_theme\n`;
+              body += `- Current schemas for: ${currentTheme}\n`;
+              body += `- Latest available: ${themeLatest}\n`;
+              body += `- [View on pub.dev](https://pub.dev/packages/json_theme)\n\n`;
+            }
+
+            body += `## Next Steps\n\n`;
+            body += `1. Review changelog for the new versions\n`;
+            body += `2. Check for new/modified schemas in the updated packages\n`;
+            body += `3. Update schema files accordingly\n`;
+            body += `4. Update documentation if needed\n`;
+            body += `5. Update VERSION file\n`;
+            body += `6. Create a PR with the changes\n\n`;
+
+            body += `---\n`;
+            body += `*This issue was automatically created by the upstream package monitoring workflow.*\n`;
+
+            if (updateNeeded) {
+              // Check if an update issue already exists
+              const issues = await github.rest.issues.listForRepo({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                labels: ['upstream-update'],
+                state: 'open'
+              });
+
+              if (issues.data.length === 0) {
+                await github.rest.issues.create({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  title: title,
+                  body: body,
+                  labels: ['upstream-update', 'maintenance']
+                });
+
+                console.log('✅ Issue created for upstream updates');
+              } else {
+                console.log('ℹ️  Update issue already exists');
+              }
+            } else {
+              console.log('✅ Schemas are up to date with latest packages');
+            }
+
+      - name: Comment on existing update issues
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const now = new Date().toISOString().split('T')[0];
+            const jdwLatest = '${{ steps.check-jdw.outputs.jdw_latest }}';
+            const themeLatest = '${{ steps.check-theme.outputs.theme_latest }}';
+
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['upstream-update'],
+              state: 'open'
+            });
+
+            if (issues.data.length > 0) {
+              const latestIssue = issues.data[0];
+              const comment = `**Last checked**: ${now}\n- json_dynamic_widget: ${jdwLatest}\n- json_theme: ${themeLatest}`;
+
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: latestIssue.number,
+                body: comment
+              });
+            }

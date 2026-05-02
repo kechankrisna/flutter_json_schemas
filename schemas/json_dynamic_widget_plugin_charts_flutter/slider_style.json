@@ -1,13 +1,13 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/slider_style.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/slider_style.json",
   "$comment": "https://pub.dev/documentation/charts_common/latest/common/SliderStyle-class.html",
   "title": "SliderStyle",
   "type": "object",
   "additionalProperties": false,
   "properties": {
     "fillColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "handleOffset": {
       "type": "object",
@@ -45,7 +45,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/slider_handle_position.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/slider_handle_position.json"
         }
       ]
     },
@@ -102,7 +102,7 @@
       }
     },
     "strokeColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     }
   }
 }

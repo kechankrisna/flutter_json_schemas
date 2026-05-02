@@ -1,12 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/switch.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/switch.json",
   "title": "_Switch",
   "type": "object",
   "additionalProperties": false,
   "properties": {
     "activeThumbColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "activeThumbImage": {
       "anyOf": [
@@ -51,7 +51,7 @@
       ]
     },
     "activeTrackColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "autofocus": {
       "anyOf": [
@@ -67,10 +67,10 @@
       ]
     },
     "autovalidateMode": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/autovalidate_mode.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/autovalidate_mode.json"
     },
     "dragStartBehavior": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/drag_start_behavior.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/drag_start_behavior.json"
     },
     "enabled": {
       "anyOf": [
@@ -86,7 +86,7 @@
       ]
     },
     "focusColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "focusNode": {
       "anyOf": [
@@ -131,10 +131,10 @@
       ]
     },
     "hoverColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "inactiveThumbColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "inactiveThumbImage": {
       "anyOf": [
@@ -179,13 +179,13 @@
       ]
     },
     "inactiveTrackColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "label": {
       "type": "string"
     },
     "materialTapTargetSize": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/material_tap_target_size.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/material_tap_target_size.json"
     },
     "mouseCursor": {
       "anyOf": [
@@ -193,7 +193,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/mouse_cursor.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/mouse_cursor.json"
         }
       ]
     },
@@ -725,7 +725,7 @@
       ]
     },
     "visualDensity": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/visual_density.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/visual_density.json"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/animated_container.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/animated_container.json",
   "title": "AnimatedContainer",
   "type": "object",
   "additionalProperties": false,
@@ -11,15 +11,15 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/alignment_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/alignment_geometry.json"
         }
       ]
     },
     "clipBehavior": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/clip.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/clip.json"
     },
     "color": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "constraints": {
       "anyOf": [
@@ -27,7 +27,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_constraints.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_constraints.json"
         }
       ]
     },
@@ -75,13 +75,13 @@
     },
     "decoration": {
       "$schema": "http://json-schema.org/draft-07/schema#",
-      "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_decoration.json",
+      "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_decoration.json",
       "type": "object",
       "title": "BoxDecoration",
       "additionalProperties": false,
       "properties": {
         "backgroundBlendMode": {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/blend_mode.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/blend_mode.json"
         },
         "border": {
           "anyOf": [
@@ -89,7 +89,7 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_border.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_border.json"
             }
           ]
         },
@@ -99,7 +99,7 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/border_radius_geometry.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/border_radius_geometry.json"
             }
           ]
         },
@@ -111,13 +111,13 @@
             {
               "type": "array",
               "items": {
-                "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_shadow.json"
+                "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_shadow.json"
               }
             }
           ]
         },
         "color": {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
         },
         "gradient": {
           "anyOf": [
@@ -125,7 +125,7 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/gradient.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/gradient.json"
             }
           ]
         },
@@ -135,12 +135,12 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/decoration_image.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/decoration_image.json"
             }
           ]
         },
         "shape": {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_shape.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_shape.json"
         }
       }
     },
@@ -188,13 +188,13 @@
     },
     "foregroundDecoration": {
       "$schema": "http://json-schema.org/draft-07/schema#",
-      "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_decoration.json",
+      "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_decoration.json",
       "type": "object",
       "title": "BoxDecoration",
       "additionalProperties": false,
       "properties": {
         "backgroundBlendMode": {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/blend_mode.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/blend_mode.json"
         },
         "border": {
           "anyOf": [
@@ -202,7 +202,7 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_border.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_border.json"
             }
           ]
         },
@@ -212,7 +212,7 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/border_radius_geometry.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/border_radius_geometry.json"
             }
           ]
         },
@@ -224,13 +224,13 @@
             {
               "type": "array",
               "items": {
-                "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_shadow.json"
+                "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_shadow.json"
               }
             }
           ]
         },
         "color": {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
         },
         "gradient": {
           "anyOf": [
@@ -238,7 +238,7 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/gradient.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/gradient.json"
             }
           ]
         },
@@ -248,12 +248,12 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/decoration_image.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/decoration_image.json"
             }
           ]
         },
         "shape": {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_shape.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_shape.json"
         }
       }
     },
@@ -273,7 +273,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
@@ -325,7 +325,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
@@ -335,7 +335,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/matrix4.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/matrix4.json"
         }
       ]
     },
@@ -345,7 +345,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/alignment_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/alignment_geometry.json"
         }
       ]
     },
@@ -365,7 +365,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/markdown_style_sheet.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/markdown_style_sheet.json",
   "$comment": "https://pub.dev/documentation/flutter_markdown/latest/flutter_markdown/MarkdownStyleSheet-class.html",
   "title": "MarkdownStyleSheet",
   "type": "object",
@@ -12,7 +12,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
@@ -32,12 +32,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
     "blockquoteAlign": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
     },
     "blockquoteDecoration": {
       "anyOf": [
@@ -45,7 +45,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_decoration.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_decoration.json"
         }
       ]
     },
@@ -55,7 +55,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
@@ -65,7 +65,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
@@ -75,12 +75,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
     "codeblockAlign": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
     },
     "codeblockDecoration": {
       "anyOf": [
@@ -88,7 +88,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_decoration.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_decoration.json"
         }
       ]
     },
@@ -98,7 +98,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
@@ -108,7 +108,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
@@ -118,7 +118,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
@@ -128,12 +128,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
     "h1Align": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
     },
     "h1Padding": {
       "anyOf": [
@@ -141,7 +141,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
@@ -151,12 +151,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
     "h2Align": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
     },
     "h2Padding": {
       "anyOf": [
@@ -164,7 +164,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
@@ -174,12 +174,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
     "h3Align": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
     },
     "h3Padding": {
       "anyOf": [
@@ -187,7 +187,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
@@ -197,12 +197,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
     "h4Align": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
     },
     "h4Padding": {
       "anyOf": [
@@ -210,7 +210,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
@@ -220,12 +220,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
     "h5Align": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
     },
     "h5Padding": {
       "anyOf": [
@@ -233,7 +233,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
@@ -243,12 +243,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
     "h6Align": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
     },
     "h6Padding": {
       "anyOf": [
@@ -256,7 +256,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
@@ -266,7 +266,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_decoration.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_decoration.json"
         }
       ]
     },
@@ -276,7 +276,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
@@ -286,7 +286,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
@@ -296,7 +296,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
@@ -311,7 +311,7 @@
       ]
     },
     "orderedListAlign": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
     },
     "p": {
       "anyOf": [
@@ -319,7 +319,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
@@ -329,7 +329,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
@@ -339,7 +339,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
@@ -349,7 +349,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
@@ -359,7 +359,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/table_border.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/table_border.json"
         }
       ]
     },
@@ -369,7 +369,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_decoration.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_decoration.json"
         }
       ]
     },
@@ -379,7 +379,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
@@ -389,7 +389,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/table_column_width.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/table_column_width.json"
         }
       ]
     },
@@ -399,15 +399,15 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
     "tableHeadAlign": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_align.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_align.json"
     },
     "textAlign": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
     },
     "textScaleFactor": {
       "anyOf": [
@@ -420,7 +420,7 @@
       ]
     },
     "unorderedListAlign": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/wrap_alignment.json"
     }
   }
 }

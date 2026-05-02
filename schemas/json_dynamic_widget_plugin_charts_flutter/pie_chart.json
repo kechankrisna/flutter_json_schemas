@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/pie_chart.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/pie_chart.json",
   "$comment": "https://pub.dev/documentation/charts_flutter/latest/flutter/PieChart-class.html",
   "title": "PieChart",
   "type": "object",
@@ -40,11 +40,11 @@
         {
           "type": "array",
           "items": {
-            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/chart_behavior.json"
+            "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/chart_behavior.json"
           }
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/chart_behavior.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/chart_behavior.json"
         }
       ]
     },
@@ -67,7 +67,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/arc_renderer_config.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/arc_renderer_config.json"
         }
       ]
     },
@@ -77,7 +77,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/layout_config.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/layout_config.json"
         }
       ]
     },
@@ -87,7 +87,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/rtl_spec.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/rtl_spec.json"
         }
       ]
     },
@@ -99,11 +99,11 @@
         {
           "type": "array",
           "items": {
-            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/series.json"
+            "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/series.json"
           }
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/series.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/series.json"
         }
       ]
     },
@@ -115,11 +115,11 @@
         {
           "type": "array",
           "items": {
-            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/selection_model_type.json"
+            "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/selection_model_type.json"
           }
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/selection_model_type.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/selection_model_type.json"
         }
       ]
     }

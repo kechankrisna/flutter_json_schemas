@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/layout_config.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/layout_config.json",
   "$comment": "https://pub.dev/documentation/charts_common/latest/common/LayoutConfig-class.html",
   "title": "LayoutConfig",
   "type": "object",
@@ -27,7 +27,7 @@
                 "type": "string"
               },
               {
-                "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/margin_spec.json"
+                "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/margin_spec.json"
               }
             ]
           },
@@ -37,7 +37,7 @@
                 "type": "string"
               },
               {
-                "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/margin_spec.json"
+                "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/margin_spec.json"
               }
             ]
           },
@@ -47,7 +47,7 @@
                 "type": "string"
               },
               {
-                "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/margin_spec.json"
+                "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/margin_spec.json"
               }
             ]
           },
@@ -57,7 +57,7 @@
                 "type": "string"
               },
               {
-                "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/margin_spec.json"
+                "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/margin_spec.json"
               }
             ]
           }

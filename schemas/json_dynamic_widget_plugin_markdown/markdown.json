@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/markdown.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/markdown.json",
   "$comment": "https://pub.dev/documentation/flutter_markdown/latest/flutter_markdown/Markdown-class.html",
   "title": "Markdown",
   "type": "object",
@@ -14,11 +14,11 @@
         {
           "type": "array",
           "items": {
-            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/block_syntax.json"
+            "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/block_syntax.json"
           }
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/block_syntax.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/block_syntax.json"
         }
       ]
     },
@@ -82,7 +82,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/extension_set.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/extension_set.json"
         }
       ]
     },
@@ -100,11 +100,11 @@
         {
           "type": "array",
           "items": {
-            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/inline_syntax.json"
+            "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/inline_syntax.json"
           }
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/inline_syntax.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/inline_syntax.json"
         }
       ]
     },
@@ -114,7 +114,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/markdown_list_item_cross_axis_alignment.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/markdown_list_item_cross_axis_alignment.json"
         }
       ]
     },
@@ -130,7 +130,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
@@ -143,7 +143,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/scroll_physics.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/scroll_physics.json"
         }
       ]
     },
@@ -192,7 +192,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/markdown_style_sheet.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/markdown_style_sheet.json"
         }
       ]
     },
@@ -202,7 +202,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/markdown_style_sheet_base_theme.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_markdown/markdown_style_sheet_base_theme.json"
         }
       ]
     },

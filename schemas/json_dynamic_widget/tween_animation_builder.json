@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/tween_animation_builder.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/tween_animation_builder.json",
   "title": "TweenAnimationBuilder",
   "type": "object",
   "additionalProperties": false,
@@ -221,7 +221,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
         }
       ]
     }

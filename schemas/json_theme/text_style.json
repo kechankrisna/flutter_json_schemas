@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json",
   "type": "object",
   "title": "TextStyle",
   "additionalProperties": false,
@@ -9,22 +9,22 @@
       "type": "string"
     },
     "backgroundColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "color": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "debugLabel": {
       "type": "string"
     },
     "decoration": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_decoration.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_decoration.json"
     },
     "decorationColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "decorationStyle": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_decoration_style.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_decoration_style.json"
     },
     "decorationThickness": {
       "anyOf": [
@@ -60,7 +60,7 @@
         {
           "type": "array",
           "items": {
-            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/font_feature.json"
+            "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/font_feature.json"
           }
         }
       ]
@@ -76,7 +76,7 @@
       ]
     },
     "fontStyle": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/font_style.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/font_style.json"
     },
     "fontVariations": {
       "anyOf": [
@@ -86,13 +86,13 @@
         {
           "type": "array",
           "items": {
-            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/font_variation.json"
+            "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/font_variation.json"
           }
         }
       ]
     },
     "fontWeight": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/font_weight.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/font_weight.json"
     },
     "foreground": {
       "type": "string"
@@ -121,7 +121,7 @@
       ]
     },
     "leadingDistribution": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_leading_distribution.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_leading_distribution.json"
     },
     "letterSpacing": {
       "anyOf": [
@@ -139,12 +139,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/locale.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/locale.json"
         }
       ]
     },
     "overflow": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_overflow.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_overflow.json"
     },
     "package": {
       "type": "string"
@@ -157,13 +157,13 @@
         {
           "type": "array",
           "items": {
-            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/shadow.json"
+            "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/shadow.json"
           }
         }
       ]
     },
     "textBaseline": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_baseline.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_baseline.json"
     },
     "wordSpacing": {
       "anyOf": [

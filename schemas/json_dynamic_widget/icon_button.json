@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/icon_button.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/icon_button.json",
   "title": "IconButton",
   "type": "object",
   "additionalProperties": false,
@@ -11,7 +11,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/alignment_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/alignment_geometry.json"
         }
       ]
     },
@@ -29,7 +29,7 @@
       ]
     },
     "color": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "constraints": {
       "anyOf": [
@@ -37,12 +37,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_constraints.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_constraints.json"
         }
       ]
     },
     "disabledColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "enableFeedback": {
       "anyOf": [
@@ -58,7 +58,7 @@
       ]
     },
     "focusColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "focusNode": {
       "anyOf": [
@@ -103,10 +103,10 @@
       ]
     },
     "highlightColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "hoverColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "icon": {
       "anyOf": [
@@ -114,7 +114,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
         }
       ]
     },
@@ -147,7 +147,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/mouse_cursor.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/mouse_cursor.json"
         }
       ]
     },
@@ -283,7 +283,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
@@ -293,12 +293,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
         }
       ]
     },
     "splashColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "splashRadius": {
       "anyOf": [
@@ -358,7 +358,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/button_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/button_style.json"
         }
       ]
     },
@@ -366,7 +366,7 @@
       "type": "string"
     },
     "visualDensity": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/visual_density.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/visual_density.json"
     }
   }
 }

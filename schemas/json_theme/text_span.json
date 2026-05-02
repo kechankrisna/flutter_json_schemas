@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_span.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_span.json",
   "type": "object",
   "title": "TextSpan",
   "additionalProperties": false,
@@ -13,7 +13,7 @@
         {
           "type": "array",
           "items": {
-            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/inline_span.json"
+            "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/inline_span.json"
           }
         }
       ]
@@ -24,7 +24,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/locale.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/locale.json"
         }
       ]
     },
@@ -34,7 +34,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/mouse_cursor.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/mouse_cursor.json"
         }
       ]
     },
@@ -72,7 +72,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },

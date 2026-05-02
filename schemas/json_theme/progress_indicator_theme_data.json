@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/progress_indicator_theme_data.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/progress_indicator_theme_data.json",
   "type": "object",
   "title": "ProgressIndicatorThemeData",
   "additionalProperties": false,
@@ -11,12 +11,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/border_radius_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/border_radius_geometry.json"
         }
       ]
     },
     "circularTrackColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "circularTrackPadding": {
       "anyOf": [
@@ -24,12 +24,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
     "color": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "constraints": {
       "anyOf": [
@@ -37,7 +37,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_constraints.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_constraints.json"
         }
       ]
     },
@@ -55,13 +55,13 @@
       ]
     },
     "linearTrackColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "refreshBackgroundColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "stopIndicatorColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "stopIndicatorRadius": {
       "anyOf": [
@@ -84,7 +84,7 @@
       ]
     },
     "strokeCap": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/stroke_cap.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/stroke_cap.json"
     },
     "strokeWidth": {
       "anyOf": [

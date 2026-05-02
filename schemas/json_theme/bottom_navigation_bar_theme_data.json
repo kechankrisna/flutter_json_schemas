@@ -1,12 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/bottom_navigation_bar_theme_data.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/bottom_navigation_bar_theme_data.json",
   "type": "object",
   "title": "BottomNavigationBarThemeData",
   "additionalProperties": false,
   "properties": {
     "backgroundColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "elevation": {
       "anyOf": [
@@ -32,7 +32,7 @@
       ]
     },
     "landscapeLayout": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/bottom_navigation_bar_landscape_layout.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/bottom_navigation_bar_landscape_layout.json"
     },
     "mouseCursor": {
       "anyOf": [
@@ -40,7 +40,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_mouse_cursor.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_mouse_cursor.json"
         }
       ]
     },
@@ -50,12 +50,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/icon_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/icon_theme_data.json"
         }
       ]
     },
     "selectedItemColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "selectedLabelStyle": {
       "anyOf": [
@@ -63,7 +63,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
@@ -94,7 +94,7 @@
       ]
     },
     "type": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/bottom_navigation_bar_type.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/bottom_navigation_bar_type.json"
     },
     "unselectedIconTheme": {
       "anyOf": [
@@ -102,12 +102,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/icon_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/icon_theme_data.json"
         }
       ]
     },
     "unselectedItemColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "unselectedLabelStyle": {
       "anyOf": [
@@ -115,7 +115,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     }

@@ -1,12 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/bottom_app_bar_theme_data.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/bottom_app_bar_theme_data.json",
   "type": "object",
   "title": "BottomAppBarThemeData",
   "additionalProperties": false,
   "properties": {
     "color": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "elevation": {
       "anyOf": [
@@ -34,12 +34,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
     "shadowColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "shape": {
       "anyOf": [
@@ -47,12 +47,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/notched_shape.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/notched_shape.json"
         }
       ]
     },
     "surfaceTintColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     }
   }
 }

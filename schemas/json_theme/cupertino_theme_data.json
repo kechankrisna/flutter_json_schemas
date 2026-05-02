@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/cupertino_theme_data.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/cupertino_theme_data.json",
   "type": "object",
   "title": "CupertinoThemeData",
   "additionalProperties": false,
@@ -19,22 +19,22 @@
       ]
     },
     "barBackgroundColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "brightness": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/brightness.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/brightness.json"
     },
     "primaryColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "primaryContrastingColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "scaffoldBackgroundColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "selectionHandleColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "textTheme": {
       "anyOf": [
@@ -42,7 +42,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/cupertino_text_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/cupertino_text_theme_data.json"
         }
       ]
     }

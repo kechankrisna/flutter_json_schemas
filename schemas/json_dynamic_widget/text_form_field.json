@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/text_form_field.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/text_form_field.json",
   "title": "_TextFormField",
   "type": "object",
   "additionalProperties": false,
@@ -74,7 +74,7 @@
       ]
     },
     "autovalidateMode": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/autovalidate_mode.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/autovalidate_mode.json"
     },
     "buildCounter": {
       "anyOf": [
@@ -132,7 +132,7 @@
       ]
     },
     "clipBehavior": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/clip.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/clip.json"
     },
     "contentInsertionConfiguration": {
       "anyOf": [
@@ -261,10 +261,10 @@
       ]
     },
     "cursorColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "cursorErrorColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "cursorHeight": {
       "anyOf": [
@@ -295,7 +295,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
         }
       ]
     },
@@ -315,12 +315,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/input_decoration.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/input_decoration.json"
         }
       ]
     },
     "dragStartBehavior": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/drag_start_behavior.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/drag_start_behavior.json"
     },
     "enableIMEPersonalizedLearning": {
       "anyOf": [
@@ -617,10 +617,10 @@
       ]
     },
     "keyboardAppearance": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/brightness.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/brightness.json"
     },
     "keyboardType": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_input_type.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_input_type.json"
     },
     "magnifierConfiguration": {
       "anyOf": [
@@ -675,7 +675,7 @@
       ]
     },
     "maxLengthEnforcement": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/max_length_enforcement.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/max_length_enforcement.json"
     },
     "maxLines": {
       "anyOf": [
@@ -703,7 +703,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/mouse_cursor.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/mouse_cursor.json"
         }
       ]
     },
@@ -1136,7 +1136,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets.json"
         }
       ]
     },
@@ -1146,7 +1146,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/scroll_physics.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/scroll_physics.json"
         }
       ]
     },
@@ -1206,10 +1206,10 @@
       ]
     },
     "selectionHeightStyle": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_height_style.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_height_style.json"
     },
     "selectionWidthStyle": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_width_style.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_width_style.json"
     },
     "showCursor": {
       "anyOf": [
@@ -1225,10 +1225,10 @@
       ]
     },
     "smartDashesType": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/smart_dashes_type.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/smart_dashes_type.json"
     },
     "smartQuotesType": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/smart_quotes_type.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/smart_quotes_type.json"
     },
     "spellCheckConfiguration": {
       "anyOf": [
@@ -1320,7 +1320,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/strut_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/strut_style.json"
         }
       ]
     },
@@ -1330,7 +1330,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
@@ -1348,19 +1348,19 @@
       ]
     },
     "textAlign": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_align.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_align.json"
     },
     "textAlignVertical": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_align_vertical.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_align_vertical.json"
     },
     "textCapitalization": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_capitalization.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_capitalization.json"
     },
     "textDirection": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_direction.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_direction.json"
     },
     "textInputAction": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_input_action.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_input_action.json"
     },
     "undoController": {
       "anyOf": [

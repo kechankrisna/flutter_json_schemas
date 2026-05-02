@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/grid_view.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/grid_view.json",
   "title": "_GridView",
   "type": "object",
   "additionalProperties": false,
@@ -97,7 +97,7 @@
       ]
     },
     "clipBehavior": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/clip.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/clip.json"
     },
     "controller": {
       "anyOf": [
@@ -142,7 +142,7 @@
       ]
     },
     "dragStartBehavior": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/drag_start_behavior.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/drag_start_behavior.json"
     },
     "findChildIndexCallback": {
       "anyOf": [
@@ -229,7 +229,7 @@
       ]
     },
     "keyboardDismissBehavior": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/scroll_view_keyboard_dismiss_behavior.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/scroll_view_keyboard_dismiss_behavior.json"
     },
     "padding": {
       "anyOf": [
@@ -237,7 +237,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets.json"
         }
       ]
     },
@@ -247,7 +247,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/scroll_physics.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/scroll_physics.json"
         }
       ]
     },
@@ -281,7 +281,7 @@
       ]
     },
     "scrollDirection": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/axis.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/axis.json"
     },
     "shrinkWrap": {
       "anyOf": [
@@ -304,7 +304,7 @@
         {
           "type": "array",
           "items": {
-            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
+            "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
           }
         }
       ]

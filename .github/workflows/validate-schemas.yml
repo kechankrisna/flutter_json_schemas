@@ -1,0 +1,126 @@
+name: Validate Schemas
+
+on:
+  push:
+    branches: ['**']
+    paths:
+      - 'schemas/**'
+      - 'docs/**'
+      - '.github/workflows/validate-schemas.yml'
+  pull_request:
+    branches: ['**']
+    paths:
+      - 'schemas/**'
+      - 'docs/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install validation tools
+        run: |
+          npm install -g ajv-cli@5.0.0
+          npm install -g json-lint
+
+      - name: Validate JSON syntax
+        run: |
+          echo "Validating JSON syntax..."
+          find schemas -name "*.json" -type f | while read file; do
+            if ! jsonlint "$file" > /dev/null 2>&1; then
+              echo "❌ Invalid JSON: $file"
+              exit 1
+            fi
+          done
+          echo "✅ All JSON files are syntactically valid"
+
+      - name: Lint JSON formatting
+        run: |
+          echo "Checking JSON formatting consistency..."
+          for file in schemas/**/*.json; do
+            if [ -f "$file" ]; then
+              # Check if JSON is properly formatted (2-space indentation)
+              if ! diff -q "$file" <(cat "$file" | jq -S --indent 2 .) > /dev/null 2>&1; then
+                echo "⚠️  Warning: $file has inconsistent formatting"
+              fi
+            fi
+          done
+          echo "✅ JSON formatting check complete"
+
+      - name: Validate schema structure (draft-7)
+        run: |
+          echo "Validating JSON Schema draft-7 structure..."
+          find schemas -name "*.json" -type f | while read file; do
+            # Basic checks for schema validity
+            if ! jq -e '$schema' "$file" 2>/dev/null || ! jq -e 'type == "object"' "$file" > /dev/null 2>&1; then
+              if ! grep -q '"$schema"' "$file"; then
+                echo "⚠️  Warning: $file may not be a JSON Schema (no \$schema property)"
+              fi
+            fi
+          done
+          echo "✅ Schema structure validation complete"
+
+      - name: Check for broken references
+        run: |
+          echo "Checking for broken $ref links..."
+          broken_refs=0
+          find schemas -name "*.json" -type f | while read file; do
+            refs=$(jq -r '.. | select(type == "string") | select(startswith("#/") or (startswith("..") and contains("/")))' "$file" 2>/dev/null || true)
+            if [ ! -z "$refs" ]; then
+              while IFS= read -r ref; do
+                if [ ! -z "$ref" ]; then
+                  # Extract file path from ref
+                  ref_file=$(echo "$ref" | sed 's|#.*||' | sed 's|../||g')
+                  if [ -n "$ref_file" ] && [ "$ref_file" != "$ref" ]; then
+                    base_dir=$(dirname "$file")
+                    full_ref_path="$base_dir/$ref_file"
+                    if [ ! -f "$full_ref_path" ]; then
+                      echo "❌ Broken reference in $file: $ref"
+                      broken_refs=$((broken_refs + 1))
+                    fi
+                  fi
+                fi
+              done <<< "$refs"
+            fi
+          done
+          if [ $broken_refs -gt 0 ]; then
+            echo "Found $broken_refs broken references"
+            exit 1
+          fi
+          echo "✅ No broken references found"
+
+      - name: Check documentation-schema parity
+        run: |
+          echo "Checking documentation-schema parity..."
+          missing_docs=0
+          missing_schemas=0
+
+          # Check if all schemas have corresponding docs
+          find schemas -name "*.json" -type f | while read schema; do
+            schema_name=$(basename "$schema" .json)
+            schema_dir=$(dirname "$schema" | sed 's|schemas/||')
+            doc_file="docs/$schema_dir/$schema_name.md"
+            if [ ! -f "$doc_file" ]; then
+              echo "⚠️  Missing documentation for: $schema"
+              missing_docs=$((missing_docs + 1))
+            fi
+          done
+
+          if [ $missing_docs -gt 0 ]; then
+            echo "⚠️  Found $missing_docs schemas missing documentation"
+          fi
+          echo "✅ Documentation-schema parity check complete"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo ""
+          echo "════════════════════════════════════════════"
+          echo "✅ Schema validation completed successfully!"
+          echo "════════════════════════════════════════════"

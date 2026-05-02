@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color_filter.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color_filter.json",
   "title": "ColorFilter",
   "oneOf": [
     {
@@ -50,7 +50,7 @@
               ]
             },
             "mode": {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/blend_mode.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/blend_mode.json"
             },
             "type": {
               "type": "string",
@@ -68,10 +68,10 @@
           ],
           "properties": {
             "color": {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
             },
             "mode": {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/blend_mode.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/blend_mode.json"
             },
             "type": {
               "type": "string",

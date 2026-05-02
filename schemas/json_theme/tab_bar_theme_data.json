@@ -1,12 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/tab_bar_theme_data.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/tab_bar_theme_data.json",
   "type": "object",
   "title": "TabBarThemeData",
   "additionalProperties": false,
   "properties": {
     "dividerColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "dividerHeight": {
       "anyOf": [
@@ -22,16 +22,16 @@
       "type": "string"
     },
     "indicatorAnimation": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/tab_indicator_animation.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/tab_indicator_animation.json"
     },
     "indicatorColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "indicatorSize": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/tab_bar_indicator_size.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/tab_bar_indicator_size.json"
     },
     "labelColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "labelPadding": {
       "anyOf": [
@@ -39,7 +39,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/edge_insets_geometry.json"
         }
       ]
     },
@@ -49,7 +49,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     },
@@ -59,7 +59,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_mouse_cursor.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_mouse_cursor.json"
         }
       ]
     },
@@ -69,7 +69,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_color.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_color.json"
         }
       ]
     },
@@ -79,7 +79,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/border_radius.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/border_radius.json"
         }
       ]
     },
@@ -89,18 +89,18 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/interactive_ink_feature_factory.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/interactive_ink_feature_factory.json"
         }
       ]
     },
     "tabAlignment": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/tab_alignment.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/tab_alignment.json"
     },
     "textScaler": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_scaler.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_scaler.json"
     },
     "unselectedLabelColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "unselectedLabelStyle": {
       "anyOf": [
@@ -108,7 +108,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_style.json"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/search_bar_theme_data.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/search_bar_theme_data.json",
   "type": "object",
   "title": "SearchBarThemeData",
   "additionalProperties": false,
@@ -11,7 +11,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_color.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_color.json"
         }
       ]
     },
@@ -21,7 +21,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/box_constraints.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/box_constraints.json"
         }
       ]
     },
@@ -31,7 +31,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_double.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_double.json"
         }
       ]
     },
@@ -41,7 +41,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_text_style.json"
         }
       ]
     },
@@ -51,7 +51,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_color.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_color.json"
         }
       ]
     },
@@ -61,7 +61,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_edge_insets_geometry.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_edge_insets_geometry.json"
         }
       ]
     },
@@ -71,7 +71,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_color.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_color.json"
         }
       ]
     },
@@ -81,7 +81,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_outlined_border.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_outlined_border.json"
         }
       ]
     },
@@ -91,7 +91,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_border_side.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_border_side.json"
         }
       ]
     },
@@ -101,12 +101,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_color.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_color.json"
         }
       ]
     },
     "textCapitalization": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_capitalization.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_capitalization.json"
     },
     "textStyle": {
       "anyOf": [
@@ -114,7 +114,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_text_style.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/widget_state_property_text_style.json"
         }
       ]
     }

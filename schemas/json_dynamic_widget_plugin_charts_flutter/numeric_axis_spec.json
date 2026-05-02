@@ -1,16 +1,16 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/numeric_axis_spec.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/numeric_axis_spec.json",
   "$comment": "https://pub.dev/documentation/charts_common/latest/common/NumericAxisSpec-class.html",
   "oneOf": [
     {
       "type": "string"
     },
     {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/bucketing_axis_spec.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/bucketing_axis_spec.json"
     },
     {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/percent_axis_spec.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/percent_axis_spec.json"
     },
     {
       "title": "NumericAxisSpec",
@@ -23,7 +23,7 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/render_spec.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/render_spec.json"
             }
           ]
         },
@@ -52,7 +52,7 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/numeric_tick_provider_spec.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/numeric_tick_provider_spec.json"
             }
           ]
         },
@@ -68,7 +68,7 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/numeric_extents.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/numeric_extents.json"
             }
           ]
         }

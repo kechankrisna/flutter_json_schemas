@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_leading_distribution.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_leading_distribution.json",
   "type": "string",
   "title": "TextLeadingDistribution",
   "oneOf": [

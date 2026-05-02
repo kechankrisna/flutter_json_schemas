@@ -1,13 +1,13 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/alignment_geometry.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/alignment_geometry.json",
   "title": "AlignmentGeometry",
   "anyOf": [
     {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/alignment.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/alignment.json"
     },
     {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/alignment_directional.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/alignment_directional.json"
     }
   ]
 }

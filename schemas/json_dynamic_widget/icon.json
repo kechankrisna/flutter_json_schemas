@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/icon.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/icon.json",
   "title": "Icon",
   "type": "object",
   "additionalProperties": false,
@@ -19,10 +19,10 @@
       ]
     },
     "blendMode": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/blend_mode.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/blend_mode.json"
     },
     "color": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "fill": {
       "anyOf": [
@@ -35,7 +35,7 @@
       ]
     },
     "fontWeight": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/font_weight.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/font_weight.json"
     },
     "grade": {
       "anyOf": [
@@ -53,7 +53,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/icon_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/icon_data.json"
         }
       ]
     },
@@ -123,7 +123,7 @@
       ]
     },
     "textDirection": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_direction.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_direction.json"
     },
     "weight": {
       "anyOf": [

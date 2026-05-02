@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/border_radius_geometry.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/border_radius_geometry.json",
   "title": "BorderRadiusGeometry",
   "oneOf": [
     {
@@ -24,7 +24,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
                 }
               ]
             },
@@ -71,7 +71,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
                 }
               ]
             },
@@ -81,7 +81,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
                 }
               ]
             },
@@ -104,7 +104,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
                 }
               ]
             },
@@ -114,7 +114,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
                 }
               ]
             },
@@ -124,7 +124,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
                 }
               ]
             },
@@ -134,7 +134,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
                 }
               ]
             },
@@ -157,7 +157,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
                 }
               ]
             },
@@ -167,7 +167,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/radius.json"
                 }
               ]
             },

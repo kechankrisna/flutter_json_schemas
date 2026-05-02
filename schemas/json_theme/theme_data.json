@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/theme_data.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/theme_data.json",
   "type": "object",
   "title": "ThemeData",
   "additionalProperties": false,
@@ -11,7 +11,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/action_icon_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/action_icon_theme_data.json"
         }
       ]
     },
@@ -24,7 +24,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/app_bar_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/app_bar_theme_data.json"
         }
       ]
     },
@@ -47,7 +47,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/badge_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/badge_theme_data.json"
         }
       ]
     },
@@ -57,7 +57,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/material_banner_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/material_banner_theme_data.json"
         }
       ]
     },
@@ -67,7 +67,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/bottom_app_bar_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/bottom_app_bar_theme_data.json"
         }
       ]
     },
@@ -77,7 +77,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/bottom_navigation_bar_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/bottom_navigation_bar_theme_data.json"
         }
       ]
     },
@@ -87,12 +87,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/bottom_sheet_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/bottom_sheet_theme_data.json"
         }
       ]
     },
     "brightness": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/brightness.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/brightness.json"
     },
     "buttonTheme": {
       "anyOf": [
@@ -100,15 +100,15 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/button_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/button_theme_data.json"
         }
       ]
     },
     "canvasColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "cardColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "cardTheme": {
       "anyOf": [
@@ -116,7 +116,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/card_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/card_theme_data.json"
         }
       ]
     },
@@ -126,7 +126,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/carousel_view_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/carousel_view_theme_data.json"
         }
       ]
     },
@@ -136,7 +136,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/checkbox_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/checkbox_theme_data.json"
         }
       ]
     },
@@ -146,7 +146,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/chip_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/chip_theme_data.json"
         }
       ]
     },
@@ -156,12 +156,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color_scheme.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color_scheme.json"
         }
       ]
     },
     "colorSchemeSeed": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "cupertinoOverrideTheme": {
       "anyOf": [
@@ -169,7 +169,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/no_default_cupertino_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/no_default_cupertino_theme_data.json"
         }
       ]
     },
@@ -179,7 +179,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/data_table_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/data_table_theme_data.json"
         }
       ]
     },
@@ -189,7 +189,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/date_picker_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/date_picker_theme_data.json"
         }
       ]
     },
@@ -199,15 +199,15 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/dialog_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/dialog_theme_data.json"
         }
       ]
     },
     "disabledColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "dividerColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "dividerTheme": {
       "anyOf": [
@@ -215,7 +215,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/divider_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/divider_theme_data.json"
         }
       ]
     },
@@ -225,7 +225,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/drawer_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/drawer_theme_data.json"
         }
       ]
     },
@@ -235,7 +235,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/dropdown_menu_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/dropdown_menu_theme_data.json"
         }
       ]
     },
@@ -245,7 +245,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/elevated_button_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/elevated_button_theme_data.json"
         }
       ]
     },
@@ -255,7 +255,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/expansion_tile_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/expansion_tile_theme_data.json"
         }
       ]
     },
@@ -268,7 +268,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/filled_button_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/filled_button_theme_data.json"
         }
       ]
     },
@@ -278,12 +278,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/floating_action_button_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/floating_action_button_theme_data.json"
         }
       ]
     },
     "focusColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "fontFamily": {
       "type": "string"
@@ -302,13 +302,13 @@
       ]
     },
     "highlightColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "hintColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "hoverColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "iconButtonTheme": {
       "anyOf": [
@@ -316,7 +316,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/icon_button_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/icon_button_theme_data.json"
         }
       ]
     },
@@ -326,7 +326,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/icon_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/icon_theme_data.json"
         }
       ]
     },
@@ -336,7 +336,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/input_decoration_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/input_decoration_theme_data.json"
         }
       ]
     },
@@ -346,12 +346,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/list_tile_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/list_tile_theme_data.json"
         }
       ]
     },
     "materialTapTargetSize": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/material_tap_target_size.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/material_tap_target_size.json"
     },
     "menuBarTheme": {
       "anyOf": [
@@ -359,7 +359,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/menu_bar_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/menu_bar_theme_data.json"
         }
       ]
     },
@@ -369,7 +369,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/menu_button_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/menu_button_theme_data.json"
         }
       ]
     },
@@ -379,7 +379,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/menu_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/menu_theme_data.json"
         }
       ]
     },
@@ -389,7 +389,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/navigation_bar_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/navigation_bar_theme_data.json"
         }
       ]
     },
@@ -399,7 +399,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/navigation_drawer_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/navigation_drawer_theme_data.json"
         }
       ]
     },
@@ -409,7 +409,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/navigation_rail_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/navigation_rail_theme_data.json"
         }
       ]
     },
@@ -419,7 +419,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/outlined_button_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/outlined_button_theme_data.json"
         }
       ]
     },
@@ -432,12 +432,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/page_transitions_theme.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/page_transitions_theme.json"
         }
       ]
     },
     "platform": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/target_platform.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/target_platform.json"
     },
     "popupMenuTheme": {
       "anyOf": [
@@ -445,18 +445,18 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/popup_menu_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/popup_menu_theme_data.json"
         }
       ]
     },
     "primaryColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "primaryColorDark": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "primaryColorLight": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "primaryIconTheme": {
       "anyOf": [
@@ -464,7 +464,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/icon_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/icon_theme_data.json"
         }
       ]
     },
@@ -474,7 +474,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/material_color.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/material_color.json"
         }
       ]
     },
@@ -484,7 +484,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_theme.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_theme.json"
         }
       ]
     },
@@ -494,7 +494,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/progress_indicator_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/progress_indicator_theme_data.json"
         }
       ]
     },
@@ -504,12 +504,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/radio_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/radio_theme_data.json"
         }
       ]
     },
     "scaffoldBackgroundColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "scrollbarTheme": {
       "anyOf": [
@@ -517,7 +517,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/scrollbar_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/scrollbar_theme_data.json"
         }
       ]
     },
@@ -527,7 +527,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/search_bar_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/search_bar_theme_data.json"
         }
       ]
     },
@@ -537,12 +537,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/search_view_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/search_view_theme_data.json"
         }
       ]
     },
     "secondaryHeaderColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "segmentedButtonTheme": {
       "anyOf": [
@@ -550,12 +550,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/segmented_button_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/segmented_button_theme_data.json"
         }
       ]
     },
     "shadowColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "sliderTheme": {
       "anyOf": [
@@ -563,7 +563,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/slider_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/slider_theme_data.json"
         }
       ]
     },
@@ -573,12 +573,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/snack_bar_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/snack_bar_theme_data.json"
         }
       ]
     },
     "splashColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "splashFactory": {
       "anyOf": [
@@ -586,7 +586,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/interactive_ink_feature_factory.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/interactive_ink_feature_factory.json"
         }
       ]
     },
@@ -596,7 +596,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/switch_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/switch_theme_data.json"
         }
       ]
     },
@@ -606,7 +606,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/tab_bar_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/tab_bar_theme_data.json"
         }
       ]
     },
@@ -616,7 +616,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_button_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_button_theme_data.json"
         }
       ]
     },
@@ -626,7 +626,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_selection_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_selection_theme_data.json"
         }
       ]
     },
@@ -636,7 +636,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_theme.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_theme.json"
         }
       ]
     },
@@ -646,7 +646,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/time_picker_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/time_picker_theme_data.json"
         }
       ]
     },
@@ -656,7 +656,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/toggle_buttons_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/toggle_buttons_theme_data.json"
         }
       ]
     },
@@ -666,7 +666,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/tooltip_theme_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/tooltip_theme_data.json"
         }
       ]
     },
@@ -676,12 +676,12 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/typography.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/typography.json"
         }
       ]
     },
     "unselectedWidgetColor": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
     },
     "useMaterial3": {
       "anyOf": [
@@ -710,7 +710,7 @@
       ]
     },
     "visualDensity": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/visual_density.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/visual_density.json"
     }
   }
 }

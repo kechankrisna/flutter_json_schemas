@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/bar_renderer_config.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/bar_renderer_config.json",
   "$comment": "https://pub.dev/documentation/charts_common/latest/common/BarRendererConfig-class.html",
   "title": "BarRendererConfig",
   "oneOf": [
@@ -77,7 +77,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/bar_grouping_type.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/bar_grouping_type.json"
                 }
               ]
             },
@@ -147,7 +147,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/symbol_renderer.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/symbol_renderer.json"
                 }
               ]
             },
@@ -195,7 +195,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/corner_strategy.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/corner_strategy.json"
                 }
               ]
             },
@@ -208,7 +208,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/fill_pattern_type.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/fill_pattern_type.json"
                 }
               ]
             },
@@ -218,7 +218,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/bar_grouping_type.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/bar_grouping_type.json"
                 }
               ]
             },
@@ -278,7 +278,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/symbol_renderer.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/symbol_renderer.json"
                 }
               ]
             },

@@ -1,18 +1,18 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/column.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/column.json",
   "title": "Column",
   "type": "object",
   "additionalProperties": false,
   "properties": {
     "crossAxisAlignment": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/cross_axis_alignment.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/cross_axis_alignment.json"
     },
     "mainAxisAlignment": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/main_axis_alignment.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/main_axis_alignment.json"
     },
     "mainAxisSize": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/main_axis_size.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/main_axis_size.json"
     },
     "spacing": {
       "anyOf": [
@@ -25,13 +25,13 @@
       ]
     },
     "textBaseline": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_baseline.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_baseline.json"
     },
     "textDirection": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_direction.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_direction.json"
     },
     "verticalDirection": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/vertical_direction.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/vertical_direction.json"
     },
     "children": {
       "anyOf": [
@@ -41,7 +41,7 @@
         {
           "type": "array",
           "items": {
-            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
+            "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
           }
         }
       ]

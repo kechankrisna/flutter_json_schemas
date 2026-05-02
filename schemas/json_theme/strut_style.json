@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/strut_style.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/strut_style.json",
   "type": "object",
   "title": "StrutStyle",
   "additionalProperties": false,
@@ -35,10 +35,10 @@
       ]
     },
     "fontStyle": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/font_style.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/font_style.json"
     },
     "fontWeight": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/font_weight.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/font_weight.json"
     },
     "forceStrutHeight": {
       "anyOf": [
@@ -74,7 +74,7 @@
       ]
     },
     "leadingDistribution": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/text_leading_distribution.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/text_leading_distribution.json"
     },
     "package": {
       "type": "string"

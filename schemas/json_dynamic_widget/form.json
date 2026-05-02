@@ -1,12 +1,12 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/form.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/form.json",
   "title": "_Form",
   "type": "object",
   "additionalProperties": false,
   "properties": {
     "autovalidateMode": {
-      "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/autovalidate_mode.json"
+      "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/autovalidate_mode.json"
     },
     "canPop": {
       "anyOf": [
@@ -69,7 +69,7 @@
           "type": "string"
         },
         {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget/json_widget_data.json"
         }
       ]
     }

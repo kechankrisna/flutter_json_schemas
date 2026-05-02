@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/render_spec.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/render_spec.json",
   "$comment": "https://pub.dev/documentation/charts_common/latest/common/RenderSpec-class.html",
   "title": "RenderSpec",
   "oneOf": [
@@ -22,7 +22,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/line_style_spec.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/line_style_spec.json"
                 }
               ]
             },
@@ -46,7 +46,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/line_style_spec.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/line_style_spec.json"
                 }
               ]
             },
@@ -56,7 +56,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/tick_label_anchor.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/tick_label_anchor.json"
                 }
               ]
             },
@@ -96,7 +96,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/tick_label_justification.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/tick_label_justification.json"
                 }
               ]
             },
@@ -136,7 +136,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/text_style_spec.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/text_style_spec.json"
                 }
               ]
             },
@@ -146,7 +146,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/line_style_spec.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/line_style_spec.json"
                 }
               ]
             },

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-06/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/annotation_segment.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/annotation_segment.json",
   "$comment": "https://pub.dev/documentation/charts_common/latest/common/AnnotationSegment-class.html",
   "title": "AnnotationSegment",
   "oneOf": [
@@ -25,12 +25,12 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/range_annotation_axis_type.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/range_annotation_axis_type.json"
                 }
               ]
             },
             "color": {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
             },
             "dashPattern": {
               "anyOf": [
@@ -83,7 +83,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/annotation_label_anchor.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/annotation_label_anchor.json"
                 }
               ]
             },
@@ -93,7 +93,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/annotation_label_direction.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/annotation_label_direction.json"
                 }
               ]
             },
@@ -103,7 +103,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/annotation_label_position.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/annotation_label_position.json"
                 }
               ]
             },
@@ -113,7 +113,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/text_style_spec.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/text_style_spec.json"
                 }
               ]
             },
@@ -195,12 +195,12 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/range_annotation_axis_type.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/range_annotation_axis_type.json"
                 }
               ]
             },
             "color": {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
             },
             "endLabel": {
               "type": "string"
@@ -253,7 +253,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/annotation_label_anchor.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/annotation_label_anchor.json"
                 }
               ]
             },
@@ -263,7 +263,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/annotation_label_direction.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/annotation_label_direction.json"
                 }
               ]
             },
@@ -273,7 +273,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/annotation_label_position.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/annotation_label_position.json"
                 }
               ]
             },
@@ -283,7 +283,7 @@
                   "type": "string"
                 },
                 {
-                  "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/text_style_spec.json"
+                  "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_dynamic_widget_plugin_charts_flutter/text_style_spec.json"
                 }
               ]
             },

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/gradient.json",
+  "$id": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/gradient.json",
   "title": "Gradient",
   "type": "object",
   "oneOf": [
@@ -15,14 +15,14 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/alignment.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/alignment.json"
             }
           ]
         },
         "colors": {
           "type": "array",
           "items": {
-            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+            "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
           }
         },
         "end": {
@@ -31,7 +31,7 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/alignment.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/alignment.json"
             }
           ]
         },
@@ -49,7 +49,7 @@
           }
         },
         "tileMode": {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/tile_mode.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/tile_mode.json"
         },
         "transform": {
           "anyOf": [
@@ -57,7 +57,7 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/gradient_transform.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/gradient_transform.json"
             }
           ]
         },
@@ -80,14 +80,14 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/alignment.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/alignment.json"
             }
           ]
         },
         "colors": {
           "type": "array",
           "items": {
-            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+            "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
           }
         },
         "focal": {
@@ -96,7 +96,7 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/alignment.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/alignment.json"
             }
           ]
         },
@@ -134,7 +134,7 @@
           }
         },
         "tileMode": {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/tile_mode.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/tile_mode.json"
         },
         "transform": {
           "anyOf": [
@@ -142,7 +142,7 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/gradient_transform.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/gradient_transform.json"
             }
           ]
         },
@@ -165,14 +165,14 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/alignment.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/alignment.json"
             }
           ]
         },
         "colors": {
           "type": "array",
           "items": {
-            "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/color.json"
+            "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/color.json"
           }
         },
         "endAngle": {
@@ -209,7 +209,7 @@
           }
         },
         "tileMode": {
-          "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/tile_mode.json"
+          "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/tile_mode.json"
         },
         "transform": {
           "anyOf": [
@@ -217,7 +217,7 @@
               "type": "string"
             },
             {
-              "$ref": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/gradient_transform.json"
+              "$ref": "https://kechankrisna.github.io/flutter_json_schemas/schemas/json_theme/gradient_transform.json"
             }
           ]
         },
