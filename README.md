@@ -17,7 +17,7 @@ These schemas enable:
 
 ## Framework Support
 
-- **Latest Stable**: Flutter 3.24.0+ / Dart 3.9.0+
+- **Latest Stable**: Flutter 3.38.5+ / Dart 3.10.4+
 - **json_dynamic_widget**: v12.0.0+
 - **json_theme**: v11.0.0+
 

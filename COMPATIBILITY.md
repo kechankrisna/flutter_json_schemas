@@ -8,10 +8,10 @@ This schema repository targets the **latest stable Flutter framework** versions.
 
 | Package | Version | Dart SDK | Flutter | Status |
 |---------|---------|----------|---------|--------|
-| **json_dynamic_widget** | 12.0.0+ | ^3.9.0 | 3.24+ | ✅ Latest |
-| **json_theme** | 11.0.0+ | ^3.9.0 | 3.24+ | ✅ Latest |
-| **Dart** | N/A | 3.9.0+ | — | ✅ Current |
-| **Flutter** | N/A | — | 3.24.0+ | ✅ Current |
+| **json_dynamic_widget** | 12.0.0+ | ^3.10.4 | 3.38.5+ | ✅ Latest |
+| **json_theme** | 11.0.0+ | ^3.10.4 | 3.38.5+ | ✅ Latest |
+| **Dart** | N/A | 3.10.4+ | — | ✅ Current |
+| **Flutter** | N/A | — | 3.38.5+ | ✅ Current |
 
 ### Minimum Requirements
 

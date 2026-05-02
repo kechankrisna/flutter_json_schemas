@@ -37,14 +37,14 @@ Schemas are versioned independently for each package they target:
 - Plugin schemas for Charts Flutter, Markdown, and icon packages
 - Comprehensive markdown documentation for all schemas
 - GitHub Pages hosting for schemas
-- **Framework Support**: Flutter 3.24.0+ / Dart 3.9.0+
+- **Framework Support**: Flutter 3.38.5+ / Dart 3.10.4+
 
 ### Features
 - ✅ **Validation** — Schemas validate JSON configurations
 - ✅ **IDE Support** — Schema-aware code completion
 - ✅ **Documentation** — Self-documenting JSON structures
 - ✅ **Type Safety** — Catch configuration errors early
-- ✅ **Latest Framework** — Supports Flutter 3.24+ with json_dynamic_widget 12.0+
+- ✅ **Latest Framework** — Supports Flutter 3.38.5+ with json_dynamic_widget 12.0+
 
 ---
 
@@ -53,8 +53,8 @@ Schemas are versioned independently for each package they target:
 Current schemas target:
 - **json_dynamic_widget**: v12.0.0+
 - **json_theme**: v11.0.0+
-- **Flutter**: 3.24.0+ (latest stable)
-- **Dart**: 3.9.0+
+- **Flutter**: 3.38.5+ (latest stable)
+- **Dart**: 3.10.4+
 - **Charts Flutter**: Latest compatible version
 - **Markdown Plugin**: Latest compatible version
 - **Icon Packages**: Latest compatible versions
