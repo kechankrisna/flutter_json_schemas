@@ -20,10 +20,12 @@ Schemas are versioned independently for each package they target:
 - Issue and PR templates for community engagement
 - Upstream package monitoring workflow
 - Validation script for local testing
+- Framework compatibility documentation
 
 ### Changed
 - Enhanced README with comprehensive project overview
 - Improved documentation structure and format
+- Updated VERSION tracking for latest framework support
 
 ---
 
@@ -35,20 +37,24 @@ Schemas are versioned independently for each package they target:
 - Plugin schemas for Charts Flutter, Markdown, and icon packages
 - Comprehensive markdown documentation for all schemas
 - GitHub Pages hosting for schemas
+- **Framework Support**: Flutter 3.24.0+ / Dart 3.9.0+
 
 ### Features
 - ✅ **Validation** — Schemas validate JSON configurations
 - ✅ **IDE Support** — Schema-aware code completion
 - ✅ **Documentation** — Self-documenting JSON structures
 - ✅ **Type Safety** — Catch configuration errors early
+- ✅ **Latest Framework** — Supports Flutter 3.24+ with json_dynamic_widget 12.0+
 
 ---
 
 ## Tracked Package Versions
 
 Current schemas target:
-- **json_dynamic_widget**: v1.0.0+
-- **json_theme**: v1.0.0+
+- **json_dynamic_widget**: v12.0.0+
+- **json_theme**: v11.0.0+
+- **Flutter**: 3.24.0+ (latest stable)
+- **Dart**: 3.9.0+
 - **Charts Flutter**: Latest compatible version
 - **Markdown Plugin**: Latest compatible version
 - **Icon Packages**: Latest compatible versions
@@ -66,10 +72,19 @@ When an upstream package (json_dynamic_widget or json_theme) releases a new vers
    - Summary of schema-relevant changes
 3. Reference this in your update PR
 
+## Framework Compatibility
+
+See [COMPATIBILITY.md](./COMPATIBILITY.md) for:
+- Latest supported Flutter versions
+- Dart SDK requirements
+- Legacy version support
+- How to check and upgrade your Flutter version
+
 ## Future Releases
 
 Releases will be published when:
 - Upstream packages release new versions requiring schema updates
+- Flutter releases new features affecting schemas
 - Significant documentation improvements are made
 - Community contributions are integrated
 - Schema validation rules are enhanced

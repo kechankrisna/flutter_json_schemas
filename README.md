@@ -15,6 +15,14 @@ These schemas enable:
 ✅ **Documentation** — Self-documenting JSON structure with examples  
 ✅ **Type Safety** — Catch configuration errors early in development  
 
+## Framework Support
+
+- **Latest Stable**: Flutter 3.24.0+ / Dart 3.9.0+
+- **json_dynamic_widget**: v12.0.0+
+- **json_theme**: v11.0.0+
+
+📋 See [COMPATIBILITY.md](./COMPATIBILITY.md) for detailed version requirements
+
 ## Schemas Available
 
 ### Core Packages
